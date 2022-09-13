@@ -1,0 +1,825 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject\\Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj",
+        "projectName": "DEMATCore",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\DEMAT.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\DEMAT.Persistence.csproj",
+        "projectName": "DEMAT.Persistence",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\DEMAT.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "NpgsqlBulk.EFCore": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationService.Module\\DEMAT.ApplicationService.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationService.Module\\DEMAT.ApplicationService.Module.csproj",
+        "projectName": "DEMAT.ApplicationService.Module",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationService.Module\\DEMAT.ApplicationService.Module.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationService.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\DEMAT.Services.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\DEMAT.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\DEMAT.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\DEMAT.ApplicationServices.csproj",
+        "projectName": "DEMAT.ApplicationServices",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\DEMAT.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\DEMAT.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\DEMAT.Interfaces.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "GrapeCity.Documents.Excel": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj",
+        "projectName": "DEMAT.Domain",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj",
+        "projectName": "DEMAT.Infrastructure",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\DEMAT.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\DEMAT.Persistence.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.17.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\DEMAT.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\DEMAT.Interfaces.csproj",
+        "projectName": "DEMAT.Interfaces",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\DEMAT.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\DEMAT.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Persistence\\DEMAT.Persistence.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Domain\\DEMAT.Domain.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj",
+        "projectName": "DEMAT.Models",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\AddinnFreamwork\\src\\Core\\DEMAT.Core.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\DEMAT.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\DEMAT.Services.csproj",
+        "projectName": "DEMAT.Services",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\DEMAT.Services.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\DEMAT.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\DEMAT.ApplicationServices.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Infrastructure\\DEMAT.Infrastructure.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\DEMAT.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Interfaces\\DEMAT.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject\\Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject\\Api.csproj",
+        "packagesPath": "C:\\Users\\Firas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject\\_intermediate_\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationService.Module\\DEMAT.ApplicationService.Module.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationService.Module\\DEMAT.ApplicationService.Module.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\DEMAT.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.ApplicationServices\\DEMAT.ApplicationServices.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Models\\DEMAT.Models.csproj"
+              },
+              "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\DEMAT.Services.csproj": {
+                "projectPath": "C:\\Users\\Firas\\Documents\\Workhole\\test-projects\\backend\\src\\AmenProject.Services\\DEMAT.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            },
+            "GrapeCity.Documents.Excel": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

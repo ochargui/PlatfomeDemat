@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>DEMAT.Services</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AmenProject.ApplicationServices\DEMAT.ApplicationServices.csproj" />
+    <ProjectReference Include="..\AmenProject.Infrastructure\DEMAT.Infrastructure.csproj" />
+    <ProjectReference Include="..\AmenProject.Interfaces\DEMAT.Interfaces.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api.csproj", "{1C0B1145-CD48-441F-A38E-41B736E6F66B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.Domain", "..\AmenProject.Domain\DEMAT.Domain.csproj", "{E396742B-463B-446B-93CF-F689E08B9F17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.Infrastructure", "..\AmenProject.Infrastructure\DEMAT.Infrastructure.csproj", "{630F1474-8140-4B83-ABCD-E14B6C6ADD90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.Interfaces", "..\AmenProject.Interfaces\DEMAT.Interfaces.csproj", "{3B2ADAE8-B3FD-4BEA-A345-3744215CB744}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.ApplicationServices", "..\AmenProject.ApplicationServices\DEMAT.ApplicationServices.csproj", "{003153DA-A5D7-4448-8716-7224EA896986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.Models", "..\AmenProject.Models\DEMAT.Models.csproj", "{CC2B1439-4617-4692-9A29-6D9968604119}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.ApplicationService.Module", "..\AmenProject.ApplicationService.Module\DEMAT.ApplicationService.Module.csproj", "{0206436D-67E0-4C52-8BD7-EFFE892E88CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameWork", "FrameWork", "{130BFB8F-CD4A-4E07-921F-76730D875437}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.Core", "..\..\AddinnFreamwork\src\Core\DEMAT.Core.csproj", "{12D4A283-926C-42F9-B549-C8C35EA335EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.Persistence", "..\..\AddinnFreamwork\src\Persistence\DEMAT.Persistence.csproj", "{ED89ADBD-EBCC-45D4-BFBE-64EC9AD552DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMAT.Services", "..\AmenProject.Services\DEMAT.Services.csproj", "{75CC76BF-54F5-486C-9D42-D962CE8771C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C0B1145-CD48-441F-A38E-41B736E6F66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0B1145-CD48-441F-A38E-41B736E6F66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0B1145-CD48-441F-A38E-41B736E6F66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0B1145-CD48-441F-A38E-41B736E6F66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E396742B-463B-446B-93CF-F689E08B9F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E396742B-463B-446B-93CF-F689E08B9F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E396742B-463B-446B-93CF-F689E08B9F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E396742B-463B-446B-93CF-F689E08B9F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630F1474-8140-4B83-ABCD-E14B6C6ADD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630F1474-8140-4B83-ABCD-E14B6C6ADD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630F1474-8140-4B83-ABCD-E14B6C6ADD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630F1474-8140-4B83-ABCD-E14B6C6ADD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2ADAE8-B3FD-4BEA-A345-3744215CB744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2ADAE8-B3FD-4BEA-A345-3744215CB744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2ADAE8-B3FD-4BEA-A345-3744215CB744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2ADAE8-B3FD-4BEA-A345-3744215CB744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003153DA-A5D7-4448-8716-7224EA896986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003153DA-A5D7-4448-8716-7224EA896986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003153DA-A5D7-4448-8716-7224EA896986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003153DA-A5D7-4448-8716-7224EA896986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2B1439-4617-4692-9A29-6D9968604119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2B1439-4617-4692-9A29-6D9968604119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2B1439-4617-4692-9A29-6D9968604119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2B1439-4617-4692-9A29-6D9968604119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0206436D-67E0-4C52-8BD7-EFFE892E88CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0206436D-67E0-4C52-8BD7-EFFE892E88CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0206436D-67E0-4C52-8BD7-EFFE892E88CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0206436D-67E0-4C52-8BD7-EFFE892E88CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D4A283-926C-42F9-B549-C8C35EA335EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D4A283-926C-42F9-B549-C8C35EA335EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D4A283-926C-42F9-B549-C8C35EA335EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D4A283-926C-42F9-B549-C8C35EA335EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED89ADBD-EBCC-45D4-BFBE-64EC9AD552DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED89ADBD-EBCC-45D4-BFBE-64EC9AD552DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED89ADBD-EBCC-45D4-BFBE-64EC9AD552DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED89ADBD-EBCC-45D4-BFBE-64EC9AD552DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CC76BF-54F5-486C-9D42-D962CE8771C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CC76BF-54F5-486C-9D42-D962CE8771C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CC76BF-54F5-486C-9D42-D962CE8771C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CC76BF-54F5-486C-9D42-D962CE8771C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12D4A283-926C-42F9-B549-C8C35EA335EC} = {130BFB8F-CD4A-4E07-921F-76730D875437}
+		{ED89ADBD-EBCC-45D4-BFBE-64EC9AD552DB} = {130BFB8F-CD4A-4E07-921F-76730D875437}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0905C606-5073-4D7F-8CBC-378B519CB0B1}
+	EndGlobalSection
+EndGlobal

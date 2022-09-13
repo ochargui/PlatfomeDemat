@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AddinnFreamwork\src\Persistence\DEMAT.Persistence.csproj" />
+    <ProjectReference Include="..\AmenProject.Domain\DEMAT.Domain.csproj" />
+    <ProjectReference Include="..\AmenProject.Infrastructure\DEMAT.Infrastructure.csproj" />
+    <ProjectReference Include="..\AmenProject.Models\DEMAT.Models.csproj" />
+  </ItemGroup>
+  
+  
+
+</Project>
